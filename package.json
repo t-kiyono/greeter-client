@@ -1,0 +1,22 @@
+{
+  "name": "greeter-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json && tsc-alias",
+    "dev": "ts-node -r tsconfig-paths/register src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@t-kiyono/greeter-grpc-ts": "^0.0.4",
+    "ts-node": "^10.9.2",
+    "tsc-alias": "^1.8.8",
+    "tsconfig-paths": "^3.15.0",
+    "typescript": "^5.3.3"
+  }
+}
